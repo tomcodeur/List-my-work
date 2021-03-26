@@ -1,0 +1,35 @@
+
+.notification.is-success {
+    display: none;
+    margin-top: 30px;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.notes {
+    font-size: 25px;
+}
+
+.input {
+    margin-top: 30px;
+}
+
+.button.is-warning {
+    margin-top: 30px;
+}
+
+.message.is-info {
+    margin-top: 50px;
+    display: none;
+}
+
+.notification.is-info{
+    margin-top: 30px;
+}
+
+.info__text {
+    opacity: 0.5;
+    font-style: italic;
+}
