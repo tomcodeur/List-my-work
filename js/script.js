@@ -3,7 +3,6 @@
 let input = document.querySelector('.input');
 let button = document.querySelector('.--valider');
 let textMessage = document.querySelector('.text__body');
-let containerComplet = document.querySelector('.container.is-max-desktop');
 let notif = document.querySelector('.notification.is-success');
 let exitNotif = document.querySelector('.delete');
 
@@ -43,6 +42,13 @@ button.addEventListener('click', () => {
     containerMessage.className = "notification is-info";
 
     notif.style.display = "block";
+
+    setTimeout(function(){
+
+        notif.style.display = "none";
+    
+    }, 4000);
+
     posts ++;
     inputResultat = input.value;
     containerMessage.innerHTML = "<p>" + posts + " " + " # " + inputResultat + "</p>";

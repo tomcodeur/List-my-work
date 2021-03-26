@@ -2,7 +2,17 @@
 .notification.is-success {
     display: none;
     margin-top: 30px;
+    animation: fadeIn ease 5s;
 }
+
+@keyframes fadeIn {
+
+    0% {opacity:1;}
+    100% {opacity:0;}
+
+}
+    
+
 
 .title {
     margin-top: 100px;
